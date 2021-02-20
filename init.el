@@ -12,7 +12,7 @@
 (load-theme 'tango-dark)
 
 ;; Make ESC quit prompts
-(global-set-key (kbd "<escape>") 'keyboard-esape-quit)
+(global-set-key (kbd "<escape>") 'keyboard-escape-quit)
 
 ;; Initialize package sources
 (require 'package)
@@ -49,7 +49,7 @@
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
- '(package-selected-packages '(doom-modeline counsel use-package)))
+ '(package-selected-packages (quote (doom-modeline counsel use-package))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
